@@ -17,9 +17,9 @@ that shows it.
 | Repository | Role |
 |---|---|
 | [VersatiaAPI](https://github.com/VersatiaFramework/VersatiaAPI) | the library plugins compile against, with the compile-time step |
-| [VersatiaCore](https://github.com/VersatiaFramework/VersatiaCore) | the runtime: a Paper plugin that interprets the descriptors; a **private** repository, distributed as a JAR |
-| [VersatiaStarter](https://github.com/VersatiaFramework/VersatiaStarter) | the one dependency a plugin build needs: VersatiaAPI and the API of every module, compile-time only |
-| [VersatiaModule-Messages](https://github.com/VersatiaFramework/VersatiaModule-Messages) | the API of the Messages module: a bank of messages per plugin, in MiniMessage with runtime arguments; the module's plugin is distributed as a JAR |
+| [VersatiaCore](https://github.com/VersatiaFramework/VersatiaCore) | the runtime: a Paper plugin that interprets the descriptors, distributed as a JAR |
+| [VersatiaStarter](https://github.com/VersatiaFramework/VersatiaStarter) | one dependency for a plugin using modules: VersatiaAPI and the API of every module, compile-time only |
+| [VersatiaModule-Database](https://github.com/VersatiaFramework/VersatiaModule-Database) | the API of the Database module: a database per plugin, with migrations, background work and stores; the module's plugin is distributed as a JAR |
 | [VersatiaDocs](https://github.com/VersatiaFramework/VersatiaDocs) | the documentation site |
 | [VersatiaExamples](https://github.com/VersatiaFramework/VersatiaExamples) | the catalogue of example plugins, one feature each |
 | [VersatiaExample-Template](https://github.com/VersatiaFramework/VersatiaExample-Template) | the GitHub template a new example plugin starts from |
