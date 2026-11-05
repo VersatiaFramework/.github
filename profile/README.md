@@ -1,6 +1,6 @@
 # Versatia
 
-A framework for Paper 1.21.4 plugins written in Kotlin. Annotate, build, done: dependency
+A framework for Paper 26.3 plugins written in Kotlin. Annotate, build, done: dependency
 injection, configuration values, lifecycle functions, listener registration and resource extraction are declared in the
 plugin's sources and resolved at **compile time** into a descriptor that the runtime executes.
 Nothing is scanned on the server, errors show up as compiler errors, and private classes stay private.
